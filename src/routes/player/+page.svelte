@@ -13,7 +13,7 @@
 		let url =
             PUBLIC_BASE_URL +
             "/api/prediction/player?appearance=" +
-            selected.id +
+            appearance +
             "&age=" +
             age +
             "&fifa_rating=" +
