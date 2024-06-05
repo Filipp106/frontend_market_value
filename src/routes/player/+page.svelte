@@ -20,13 +20,13 @@
             fifa_rating;
         console.log(url);
         axios.get(url).then((response) => {
-            current_value = 'EUR ' + response.data;
+            current_value = 'EUR ' + response.data.prediction;
         });
 	}
 </script>
 <div class="container text-center">
 
-	<h1>What's the market value of your player? {JSON.stringify(current_value, null, 2)}</h1>
+	<h1>What's the market value of your player? {current_value}</h1>
 	
 	<div class="row justify-content-md-center">
 	  <div class="col col-lg-2">
