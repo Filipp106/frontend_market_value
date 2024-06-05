@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/appartment">Market Values</a>
+            <a class="nav-link" href="/player">Market Values</a>
           </li>
         </ul>
       </div>
